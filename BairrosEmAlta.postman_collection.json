@@ -1,0 +1,116 @@
+{
+  "info": {
+    "name": "BairrosEmAlta API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5140",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Neighborhoods",
+      "item": [
+        {
+          "name": "GET all neighborhoods",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/neighborhoods",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "neighborhoods"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET neighborhood by ID — Savassi",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/neighborhoods/a1b2c3d4-e5f6-7890-abcd-ef1234567801",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "neighborhoods", "a1b2c3d4-e5f6-7890-abcd-ef1234567801"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET neighborhood by ID — Lourdes",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/neighborhoods/a1b2c3d4-e5f6-7890-abcd-ef1234567802",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "neighborhoods", "a1b2c3d4-e5f6-7890-abcd-ef1234567802"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET neighborhood by ID — Buritis",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/neighborhoods/a1b2c3d4-e5f6-7890-abcd-ef1234567803",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "neighborhoods", "a1b2c3d4-e5f6-7890-abcd-ef1234567803"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET neighborhood by ID — Cidade Nova",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/neighborhoods/a1b2c3d4-e5f6-7890-abcd-ef1234567804",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "neighborhoods", "a1b2c3d4-e5f6-7890-abcd-ef1234567804"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET neighborhood by ID — Pampulha",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/neighborhoods/a1b2c3d4-e5f6-7890-abcd-ef1234567805",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "neighborhoods", "a1b2c3d4-e5f6-7890-abcd-ef1234567805"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET neighborhood by ID — Barreiro",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/neighborhoods/a1b2c3d4-e5f6-7890-abcd-ef1234567806",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "neighborhoods", "a1b2c3d4-e5f6-7890-abcd-ef1234567806"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET neighborhood by ID — Not Found (404)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/neighborhoods/00000000-0000-0000-0000-000000000000",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "neighborhoods", "00000000-0000-0000-0000-000000000000"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

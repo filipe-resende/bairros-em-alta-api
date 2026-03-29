@@ -1,0 +1,6 @@
+@BairrosEmAlta.API_HostAddress = http://localhost:5140
+
+GET {{BairrosEmAlta.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

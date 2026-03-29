@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BairrosEmAlta.API/BairrosEmAlta.API.csproj" />
+    <Project Path="src/BairrosEmAlta.Application/BairrosEmAlta.Application.csproj" />
+    <Project Path="src/BairrosEmAlta.Domain/BairrosEmAlta.Domain.csproj" />
+    <Project Path="src/BairrosEmAlta.Infrastructure/BairrosEmAlta.Infrastructure.csproj" />
+  </Folder>
+</Solution>
